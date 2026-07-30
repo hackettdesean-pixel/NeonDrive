@@ -1,0 +1,27 @@
+name: NeonDrive Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  linux-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Install build tools
+        run: |
+          sudo apt update
+          sudo apt install -y cmake ninja-build clang
+
+      - name: Configure
+        run: |
+          cmake -B build -G Ninja
+
+      - name: Build
+        run: |
+          cmake --build build
