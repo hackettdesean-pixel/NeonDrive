@@ -8,9 +8,10 @@ struct Matrix4
 
     Matrix4()
     {
-        for(int i = 0; i < 16; i++)
-            data[i] = 0.0f;
+        for(int i=0;i<16;i++)
+            data[i]=0;
     }
+
 };
 
 }
