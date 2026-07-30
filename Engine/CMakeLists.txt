@@ -9,3 +9,5 @@ target_include_directories(
     NeonEngine
     PUBLIC Core
 )
+
+add_subdirectory(../../Renderer/Vulkan Renderer/Vulkan)
