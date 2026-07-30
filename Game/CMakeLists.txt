@@ -6,6 +6,7 @@ add_executable(
     Player/Player.cpp
 
     Vehicle/Vehicle.cpp
+    Vehicle/Physics/VehiclePhysics.cpp
 
     Controller/VehicleController.cpp
     Controller/CameraController.cpp
@@ -20,6 +21,9 @@ add_executable(
     Progression/PlayerProgression.cpp
 
     World/WorldManager.cpp
+
+    Traffic/TrafficVehicle.cpp
+    Traffic/TrafficManager.cpp
 )
 
 
@@ -28,6 +32,8 @@ target_link_libraries(
 
     NeonEngine
     NeonVulkan
+    NeonScene
+    NeonPostProcess
 )
 
 

@@ -9,7 +9,6 @@ add_library(
     Debug/FPSCounter.cpp
 
     Config/GameConfig.cpp
-
     Settings/GraphicsSettings.cpp
 
     Audio/AudioDevice.cpp
@@ -24,6 +23,15 @@ add_library(
     Optimization/CullingSystem.cpp
     Optimization/LODStreamer.cpp
     Optimization/MobileMode.cpp
+
+    Math/Vector3.cpp
+
+    Assets/AssetManager.cpp
+    Assets/Model/Model.cpp
+
+    World/WorldManager.cpp
+
+    Input/InputManager.cpp
 )
 
 
