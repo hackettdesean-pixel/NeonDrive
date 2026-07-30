@@ -1,0 +1,70 @@
+name: NeonDrive Release Build
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+
+jobs:
+
+  windows:
+
+    name: Windows Vulkan Build
+
+    runs-on: windows-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+
+    - name: Setup CMake
+      uses: lukka/get-cmake@latest
+
+
+    - name: Configure
+      run: cmake -B build
+
+
+    - name: Build
+      run: cmake --build build --config Release
+
+
+    - name: Upload Windows Build
+      uses: actions/upload-artifact@v4
+      with:
+        name: NeonDrive-Windows
+        path: build/
+
+
+  android:
+
+    name: Android APK Build
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+
+    - name: Android Setup
+      uses: android-actions/setup-android@v3
+
+
+    - name: Build APK
+      run: |
+        cd Android
+        echo "Gradle Android build placeholder"
+
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: NeonDrive-Android
+        path: Android/
