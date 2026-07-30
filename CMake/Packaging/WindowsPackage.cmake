@@ -1,0 +1,8 @@
+set(CPACK_PACKAGE_NAME "NeonDrive")
+
+set(CPACK_PACKAGE_VERSION "0.1")
+
+set(CPACK_GENERATOR "ZIP")
+
+
+include(CPack)
