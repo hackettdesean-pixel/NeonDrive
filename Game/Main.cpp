@@ -1,9 +1,20 @@
-#include "../Engine/Core/Application.h"
+#include "../Engine/Core/Engine.h"
+
 
 int main()
 {
-    Neon::Application app;
-    app.Run();
+
+    Neon::Engine engine;
+
+
+    if(engine.Start())
+    {
+        engine.Run();
+    }
+
+
+    engine.Stop();
+
 
     return 0;
 }
