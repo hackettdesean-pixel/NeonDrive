@@ -21,3 +21,16 @@ target_include_directories(
     NeonVulkanCore
     PUBLIC Core
 )
+
+add_library(
+    NeonVulkanPipeline
+
+    Pipeline/Swapchain.cpp
+    Pipeline/CommandBuffer.cpp
+    Pipeline/RenderPipeline.cpp
+)
+
+target_include_directories(
+    NeonVulkanPipeline
+    PUBLIC Pipeline
+)
