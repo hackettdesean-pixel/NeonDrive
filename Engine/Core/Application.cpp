@@ -1,5 +1,6 @@
 #include "Application.h"
-#include <iostream>
+#include "Time.h"
+#include "Logger.h"
 
 namespace Neon {
 
@@ -8,23 +9,35 @@ Application::Application()
     running = true;
 }
 
+
 Application::~Application()
 {
 }
 
+
 void Application::Run()
 {
-    std::cout << "NeonDrive Engine Booted\n";
+    Logger::Info("NeonDrive Engine Started");
+
+    int frames = 0;
 
     while(running)
     {
-        // Main loop
-        // Input
-        // Physics
-        // Rendering
+        Time::Update();
 
-        running = false;
+        // Input system
+        // Physics system
+        // Renderer system
+
+        frames++;
+
+        if(frames >= 5)
+        {
+            Logger::Info("Main loop running");
+            running = false;
+        }
     }
+
 }
 
 }
