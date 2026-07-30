@@ -6,6 +6,5 @@ add_library(
 
 target_include_directories(
     NeonEngine
-    PUBLIC
-    Core
+    PUBLIC Core
 )

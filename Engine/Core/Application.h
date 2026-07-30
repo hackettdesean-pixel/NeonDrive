@@ -1,10 +1,8 @@
 #pragma once
 
-namespace Neon
-{
+namespace Neon {
 
-class Application
-{
+class Application {
 public:
     Application();
     ~Application();

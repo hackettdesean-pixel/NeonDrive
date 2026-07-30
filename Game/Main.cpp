@@ -3,9 +3,7 @@
 int main()
 {
     Neon::Application app;
-
     app.Run();
 
     return 0;
 }
-

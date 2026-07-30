@@ -1,8 +1,7 @@
 #include "Application.h"
 #include <iostream>
 
-namespace Neon
-{
+namespace Neon {
 
 Application::Application()
 {
@@ -15,12 +14,14 @@ Application::~Application()
 
 void Application::Run()
 {
-    std::cout << "NeonDrive Engine Started\n";
+    std::cout << "NeonDrive Engine Booted\n";
 
-    while (running)
+    while(running)
     {
-        // Main game loop
-        // Renderer, physics, input will go here
+        // Main loop
+        // Input
+        // Physics
+        // Rendering
 
         running = false;
     }
