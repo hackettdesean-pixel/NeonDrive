@@ -114,10 +114,24 @@ Game/CMakeFiles/NeonDrive.dir/Vehicle/Vehicle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeonDrive.dir/Vehicle/Vehicle.cpp.s"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/NeonDrive/Game/Vehicle/Vehicle.cpp -o CMakeFiles/NeonDrive.dir/Vehicle/Vehicle.cpp.s
 
+Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.o: Game/CMakeFiles/NeonDrive.dir/flags.make
+Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.o: /data/data/com.termux/files/home/NeonDrive/Game/Vehicle/Physics/VehiclePhysics.cpp
+Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.o: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.o"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.o -MF CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.o.d -o CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Game/Vehicle/Physics/VehiclePhysics.cpp
+
+Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.i"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/NeonDrive/Game/Vehicle/Physics/VehiclePhysics.cpp > CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.i
+
+Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.s"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/NeonDrive/Game/Vehicle/Physics/VehiclePhysics.cpp -o CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.s
+
 Game/CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.o: Game/CMakeFiles/NeonDrive.dir/flags.make
 Game/CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.o: /data/data/com.termux/files/home/NeonDrive/Game/Controller/VehicleController.cpp
 Game/CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.o: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.o"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.o -MF CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.o.d -o CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Game/Controller/VehicleController.cpp
 
 Game/CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.i: cmake_force
@@ -131,7 +145,7 @@ Game/CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.s: cmake_force
 Game/CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.o: Game/CMakeFiles/NeonDrive.dir/flags.make
 Game/CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.o: /data/data/com.termux/files/home/NeonDrive/Game/Controller/CameraController.cpp
 Game/CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.o: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.o"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.o -MF CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.o.d -o CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Game/Controller/CameraController.cpp
 
 Game/CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.i: cmake_force
@@ -145,7 +159,7 @@ Game/CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.s: cmake_force
 Game/CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.o: Game/CMakeFiles/NeonDrive.dir/flags.make
 Game/CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.o: /data/data/com.termux/files/home/NeonDrive/Game/HUD/HUD.cpp
 Game/CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.o: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Game/CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Game/CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.o"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.o -MF CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.o.d -o CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Game/HUD/HUD.cpp
 
 Game/CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.i: cmake_force
@@ -159,7 +173,7 @@ Game/CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.s: cmake_force
 Game/CMakeFiles/NeonDrive.dir/Missions/Mission.cpp.o: Game/CMakeFiles/NeonDrive.dir/flags.make
 Game/CMakeFiles/NeonDrive.dir/Missions/Mission.cpp.o: /data/data/com.termux/files/home/NeonDrive/Game/Missions/Mission.cpp
 Game/CMakeFiles/NeonDrive.dir/Missions/Mission.cpp.o: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Missions/Mission.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Missions/Mission.cpp.o"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/NeonDrive.dir/Missions/Mission.cpp.o -MF CMakeFiles/NeonDrive.dir/Missions/Mission.cpp.o.d -o CMakeFiles/NeonDrive.dir/Missions/Mission.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Game/Missions/Mission.cpp
 
 Game/CMakeFiles/NeonDrive.dir/Missions/Mission.cpp.i: cmake_force
@@ -173,7 +187,7 @@ Game/CMakeFiles/NeonDrive.dir/Missions/Mission.cpp.s: cmake_force
 Game/CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.o: Game/CMakeFiles/NeonDrive.dir/flags.make
 Game/CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.o: /data/data/com.termux/files/home/NeonDrive/Game/Missions/MissionManager.cpp
 Game/CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.o: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.o"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.o -MF CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.o.d -o CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Game/Missions/MissionManager.cpp
 
 Game/CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.i: cmake_force
@@ -187,7 +201,7 @@ Game/CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.s: cmake_force
 Game/CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.o: Game/CMakeFiles/NeonDrive.dir/flags.make
 Game/CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.o: /data/data/com.termux/files/home/NeonDrive/Game/Economy/Wallet.cpp
 Game/CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.o: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.o"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.o -MF CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.o.d -o CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Game/Economy/Wallet.cpp
 
 Game/CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.i: cmake_force
@@ -201,7 +215,7 @@ Game/CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.s: cmake_force
 Game/CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.o: Game/CMakeFiles/NeonDrive.dir/flags.make
 Game/CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.o: /data/data/com.termux/files/home/NeonDrive/Game/Progression/PlayerProgression.cpp
 Game/CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.o: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.o"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.o -MF CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.o.d -o CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Game/Progression/PlayerProgression.cpp
 
 Game/CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.i: cmake_force
@@ -215,7 +229,7 @@ Game/CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.s: cmake_force
 Game/CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o: Game/CMakeFiles/NeonDrive.dir/flags.make
 Game/CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o: /data/data/com.termux/files/home/NeonDrive/Game/World/WorldManager.cpp
 Game/CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Game/CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Game/CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o -MF CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o.d -o CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Game/World/WorldManager.cpp
 
 Game/CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.i: cmake_force
@@ -226,11 +240,40 @@ Game/CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.s"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/NeonDrive/Game/World/WorldManager.cpp -o CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.s
 
+Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.o: Game/CMakeFiles/NeonDrive.dir/flags.make
+Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.o: /data/data/com.termux/files/home/NeonDrive/Game/Traffic/TrafficVehicle.cpp
+Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.o: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.o"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.o -MF CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.o.d -o CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Game/Traffic/TrafficVehicle.cpp
+
+Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.i"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/NeonDrive/Game/Traffic/TrafficVehicle.cpp > CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.i
+
+Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.s"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/NeonDrive/Game/Traffic/TrafficVehicle.cpp -o CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.s
+
+Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.o: Game/CMakeFiles/NeonDrive.dir/flags.make
+Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.o: /data/data/com.termux/files/home/NeonDrive/Game/Traffic/TrafficManager.cpp
+Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.o: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.o"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.o -MF CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.o.d -o CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Game/Traffic/TrafficManager.cpp
+
+Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.i"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/NeonDrive/Game/Traffic/TrafficManager.cpp > CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.i
+
+Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.s"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Game && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/NeonDrive/Game/Traffic/TrafficManager.cpp -o CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.s
+
 # Object files for target NeonDrive
 NeonDrive_OBJECTS = \
 "CMakeFiles/NeonDrive.dir/Main.cpp.o" \
 "CMakeFiles/NeonDrive.dir/Player/Player.cpp.o" \
 "CMakeFiles/NeonDrive.dir/Vehicle/Vehicle.cpp.o" \
+"CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.o" \
 "CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.o" \
 "CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.o" \
 "CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.o" \
@@ -238,7 +281,9 @@ NeonDrive_OBJECTS = \
 "CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.o" \
 "CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.o" \
 "CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.o" \
-"CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o"
+"CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o" \
+"CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.o" \
+"CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.o"
 
 # External object files for target NeonDrive
 NeonDrive_EXTERNAL_OBJECTS =
@@ -246,6 +291,7 @@ NeonDrive_EXTERNAL_OBJECTS =
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/Main.cpp.o
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/Player/Player.cpp.o
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/Vehicle/Vehicle.cpp.o
+Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.o
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.o
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.o
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.o
@@ -254,12 +300,16 @@ Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.o
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.o
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.o
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o
+Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.o
+Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.o
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/build.make
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/compiler_depend.ts
 Game/NeonDrive: Engine/libNeonEngine.a
 Game/NeonDrive: Renderer/Vulkan/libNeonVulkan.a
+Game/NeonDrive: Renderer/Scene/libNeonScene.a
+Game/NeonDrive: Renderer/PostProcess/libNeonPostProcess.a
 Game/NeonDrive: Game/CMakeFiles/NeonDrive.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable NeonDrive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable NeonDrive"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Game && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeonDrive.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

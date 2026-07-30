@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/data/data/com.termux/files/home/NeonDrive/Engine/Assets/AssetManager.cpp" "Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o.d"
+  "/data/data/com.termux/files/home/NeonDrive/Engine/Assets/Model/Model.cpp" "Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o.d"
   "/data/data/com.termux/files/home/NeonDrive/Engine/Audio/AudioDevice.cpp" "Engine/CMakeFiles/NeonEngine.dir/Audio/AudioDevice.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Audio/AudioDevice.cpp.o.d"
   "/data/data/com.termux/files/home/NeonDrive/Engine/Audio/AudioManager.cpp" "Engine/CMakeFiles/NeonEngine.dir/Audio/AudioManager.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Audio/AudioManager.cpp.o.d"
   "/data/data/com.termux/files/home/NeonDrive/Engine/Audio/Sound.cpp" "Engine/CMakeFiles/NeonEngine.dir/Audio/Sound.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Audio/Sound.cpp.o.d"
@@ -17,6 +19,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/data/data/com.termux/files/home/NeonDrive/Engine/Core/GameLoop.cpp" "Engine/CMakeFiles/NeonEngine.dir/Core/GameLoop.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Core/GameLoop.cpp.o.d"
   "/data/data/com.termux/files/home/NeonDrive/Engine/Debug/FPSCounter.cpp" "Engine/CMakeFiles/NeonEngine.dir/Debug/FPSCounter.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Debug/FPSCounter.cpp.o.d"
   "/data/data/com.termux/files/home/NeonDrive/Engine/Debug/Logger.cpp" "Engine/CMakeFiles/NeonEngine.dir/Debug/Logger.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Debug/Logger.cpp.o.d"
+  "/data/data/com.termux/files/home/NeonDrive/Engine/Input/InputManager.cpp" "Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o.d"
+  "/data/data/com.termux/files/home/NeonDrive/Engine/Math/Vector3.cpp" "Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o.d"
   "/data/data/com.termux/files/home/NeonDrive/Engine/Optimization/CullingSystem.cpp" "Engine/CMakeFiles/NeonEngine.dir/Optimization/CullingSystem.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Optimization/CullingSystem.cpp.o.d"
   "/data/data/com.termux/files/home/NeonDrive/Engine/Optimization/LODStreamer.cpp" "Engine/CMakeFiles/NeonEngine.dir/Optimization/LODStreamer.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Optimization/LODStreamer.cpp.o.d"
   "/data/data/com.termux/files/home/NeonDrive/Engine/Optimization/MemoryManager.cpp" "Engine/CMakeFiles/NeonEngine.dir/Optimization/MemoryManager.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Optimization/MemoryManager.cpp.o.d"
@@ -25,6 +29,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/data/data/com.termux/files/home/NeonDrive/Engine/Performance/PerformanceProfile.cpp" "Engine/CMakeFiles/NeonEngine.dir/Performance/PerformanceProfile.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Performance/PerformanceProfile.cpp.o.d"
   "/data/data/com.termux/files/home/NeonDrive/Engine/Performance/ThreadManager.cpp" "Engine/CMakeFiles/NeonEngine.dir/Performance/ThreadManager.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Performance/ThreadManager.cpp.o.d"
   "/data/data/com.termux/files/home/NeonDrive/Engine/Settings/GraphicsSettings.cpp" "Engine/CMakeFiles/NeonEngine.dir/Settings/GraphicsSettings.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/Settings/GraphicsSettings.cpp.o.d"
+  "/data/data/com.termux/files/home/NeonDrive/Engine/World/WorldManager.cpp" "Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o" "gcc" "Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

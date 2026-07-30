@@ -310,6 +310,76 @@ Engine/CMakeFiles/NeonEngine.dir/Optimization/MobileMode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeonEngine.dir/Optimization/MobileMode.cpp.s"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/NeonDrive/Engine/Optimization/MobileMode.cpp -o CMakeFiles/NeonEngine.dir/Optimization/MobileMode.cpp.s
 
+Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o: Engine/CMakeFiles/NeonEngine.dir/flags.make
+Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o: /data/data/com.termux/files/home/NeonDrive/Engine/Math/Vector3.cpp
+Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o: Engine/CMakeFiles/NeonEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o -MF CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o.d -o CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Engine/Math/Vector3.cpp
+
+Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.i"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/NeonDrive/Engine/Math/Vector3.cpp > CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.i
+
+Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.s"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/NeonDrive/Engine/Math/Vector3.cpp -o CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.s
+
+Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o: Engine/CMakeFiles/NeonEngine.dir/flags.make
+Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o: /data/data/com.termux/files/home/NeonDrive/Engine/Assets/AssetManager.cpp
+Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o: Engine/CMakeFiles/NeonEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o -MF CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o.d -o CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Engine/Assets/AssetManager.cpp
+
+Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.i"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/NeonDrive/Engine/Assets/AssetManager.cpp > CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.i
+
+Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.s"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/NeonDrive/Engine/Assets/AssetManager.cpp -o CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.s
+
+Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o: Engine/CMakeFiles/NeonEngine.dir/flags.make
+Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o: /data/data/com.termux/files/home/NeonDrive/Engine/Assets/Model/Model.cpp
+Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o: Engine/CMakeFiles/NeonEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o -MF CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o.d -o CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Engine/Assets/Model/Model.cpp
+
+Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.i"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/NeonDrive/Engine/Assets/Model/Model.cpp > CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.i
+
+Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.s"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/NeonDrive/Engine/Assets/Model/Model.cpp -o CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.s
+
+Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o: Engine/CMakeFiles/NeonEngine.dir/flags.make
+Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o: /data/data/com.termux/files/home/NeonDrive/Engine/World/WorldManager.cpp
+Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o: Engine/CMakeFiles/NeonEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o -MF CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o.d -o CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Engine/World/WorldManager.cpp
+
+Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.i"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/NeonDrive/Engine/World/WorldManager.cpp > CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.i
+
+Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.s"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/NeonDrive/Engine/World/WorldManager.cpp -o CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.s
+
+Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o: Engine/CMakeFiles/NeonEngine.dir/flags.make
+Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o: /data/data/com.termux/files/home/NeonDrive/Engine/Input/InputManager.cpp
+Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o: Engine/CMakeFiles/NeonEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o -MF CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o.d -o CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o -c /data/data/com.termux/files/home/NeonDrive/Engine/Input/InputManager.cpp
+
+Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.i"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/NeonDrive/Engine/Input/InputManager.cpp > CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.i
+
+Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.s"
+	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/NeonDrive/Engine/Input/InputManager.cpp -o CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.s
+
 # Object files for target NeonEngine
 NeonEngine_OBJECTS = \
 "CMakeFiles/NeonEngine.dir/Core/Application.cpp.o" \
@@ -328,7 +398,12 @@ NeonEngine_OBJECTS = \
 "CMakeFiles/NeonEngine.dir/Optimization/MemoryManager.cpp.o" \
 "CMakeFiles/NeonEngine.dir/Optimization/CullingSystem.cpp.o" \
 "CMakeFiles/NeonEngine.dir/Optimization/LODStreamer.cpp.o" \
-"CMakeFiles/NeonEngine.dir/Optimization/MobileMode.cpp.o"
+"CMakeFiles/NeonEngine.dir/Optimization/MobileMode.cpp.o" \
+"CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o" \
+"CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o" \
+"CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o" \
+"CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o" \
+"CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o"
 
 # External object files for target NeonEngine
 NeonEngine_EXTERNAL_OBJECTS =
@@ -350,9 +425,14 @@ Engine/libNeonEngine.a: Engine/CMakeFiles/NeonEngine.dir/Optimization/MemoryMana
 Engine/libNeonEngine.a: Engine/CMakeFiles/NeonEngine.dir/Optimization/CullingSystem.cpp.o
 Engine/libNeonEngine.a: Engine/CMakeFiles/NeonEngine.dir/Optimization/LODStreamer.cpp.o
 Engine/libNeonEngine.a: Engine/CMakeFiles/NeonEngine.dir/Optimization/MobileMode.cpp.o
+Engine/libNeonEngine.a: Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o
+Engine/libNeonEngine.a: Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o
+Engine/libNeonEngine.a: Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o
+Engine/libNeonEngine.a: Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o
+Engine/libNeonEngine.a: Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o
 Engine/libNeonEngine.a: Engine/CMakeFiles/NeonEngine.dir/build.make
 Engine/libNeonEngine.a: Engine/CMakeFiles/NeonEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX static library libNeonEngine.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX static library libNeonEngine.a"
 	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && $(CMAKE_COMMAND) -P CMakeFiles/NeonEngine.dir/cmake_clean_target.cmake
 	cd /data/data/com.termux/files/home/NeonDrive/build/Engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeonEngine.dir/link.txt --verbose=$(VERBOSE)
 

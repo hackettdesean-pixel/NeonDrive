@@ -4,7 +4,7 @@
 # compile CXX with /data/data/com.termux/files/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/data/data/com.termux/files/home/NeonDrive/Game/. -I/data/data/com.termux/files/home/NeonDrive/Engine/. -I/data/data/com.termux/files/home/NeonDrive/Renderer/Vulkan/.
+CXX_INCLUDES = -I/data/data/com.termux/files/home/NeonDrive/Game/. -I/data/data/com.termux/files/home/NeonDrive/Engine/. -I/data/data/com.termux/files/home/NeonDrive/Renderer/Vulkan/. -I/data/data/com.termux/files/home/NeonDrive/Renderer/Scene/. -I/data/data/com.termux/files/home/NeonDrive/Renderer/PostProcess/.
 
 CXX_FLAGS = -O2 -g -DNDEBUG -std=gnu++20
 

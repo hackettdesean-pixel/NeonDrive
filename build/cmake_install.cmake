@@ -54,6 +54,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/data/data/com.termux/files/home/NeonDrive/build/Renderer/Scene/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/data/data/com.termux/files/home/NeonDrive/build/Renderer/PostProcess/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/data/data/com.termux/files/home/NeonDrive/build/Game/cmake_install.cmake")
 endif()
 

@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/llvm-ar qc libNeonScene.a CMakeFiles/NeonScene.dir/Camera.cpp.o CMakeFiles/NeonScene.dir/SceneRenderer.cpp.o
+/data/data/com.termux/files/usr/bin/llvm-ranlib libNeonScene.a

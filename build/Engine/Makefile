@@ -130,6 +130,54 @@ NeonEngine/fast:
 	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/build
 .PHONY : NeonEngine/fast
 
+Assets/AssetManager.o: Assets/AssetManager.cpp.o
+.PHONY : Assets/AssetManager.o
+
+# target to build an object file
+Assets/AssetManager.cpp.o:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o
+.PHONY : Assets/AssetManager.cpp.o
+
+Assets/AssetManager.i: Assets/AssetManager.cpp.i
+.PHONY : Assets/AssetManager.i
+
+# target to preprocess a source file
+Assets/AssetManager.cpp.i:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.i
+.PHONY : Assets/AssetManager.cpp.i
+
+Assets/AssetManager.s: Assets/AssetManager.cpp.s
+.PHONY : Assets/AssetManager.s
+
+# target to generate assembly for a file
+Assets/AssetManager.cpp.s:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.s
+.PHONY : Assets/AssetManager.cpp.s
+
+Assets/Model/Model.o: Assets/Model/Model.cpp.o
+.PHONY : Assets/Model/Model.o
+
+# target to build an object file
+Assets/Model/Model.cpp.o:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o
+.PHONY : Assets/Model/Model.cpp.o
+
+Assets/Model/Model.i: Assets/Model/Model.cpp.i
+.PHONY : Assets/Model/Model.i
+
+# target to preprocess a source file
+Assets/Model/Model.cpp.i:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.i
+.PHONY : Assets/Model/Model.cpp.i
+
+Assets/Model/Model.s: Assets/Model/Model.cpp.s
+.PHONY : Assets/Model/Model.s
+
+# target to generate assembly for a file
+Assets/Model/Model.cpp.s:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.s
+.PHONY : Assets/Model/Model.cpp.s
+
 Audio/AudioDevice.o: Audio/AudioDevice.cpp.o
 .PHONY : Audio/AudioDevice.o
 
@@ -346,6 +394,54 @@ Debug/Logger.cpp.s:
 	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Debug/Logger.cpp.s
 .PHONY : Debug/Logger.cpp.s
 
+Input/InputManager.o: Input/InputManager.cpp.o
+.PHONY : Input/InputManager.o
+
+# target to build an object file
+Input/InputManager.cpp.o:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o
+.PHONY : Input/InputManager.cpp.o
+
+Input/InputManager.i: Input/InputManager.cpp.i
+.PHONY : Input/InputManager.i
+
+# target to preprocess a source file
+Input/InputManager.cpp.i:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.i
+.PHONY : Input/InputManager.cpp.i
+
+Input/InputManager.s: Input/InputManager.cpp.s
+.PHONY : Input/InputManager.s
+
+# target to generate assembly for a file
+Input/InputManager.cpp.s:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.s
+.PHONY : Input/InputManager.cpp.s
+
+Math/Vector3.o: Math/Vector3.cpp.o
+.PHONY : Math/Vector3.o
+
+# target to build an object file
+Math/Vector3.cpp.o:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o
+.PHONY : Math/Vector3.cpp.o
+
+Math/Vector3.i: Math/Vector3.cpp.i
+.PHONY : Math/Vector3.i
+
+# target to preprocess a source file
+Math/Vector3.cpp.i:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.i
+.PHONY : Math/Vector3.cpp.i
+
+Math/Vector3.s: Math/Vector3.cpp.s
+.PHONY : Math/Vector3.s
+
+# target to generate assembly for a file
+Math/Vector3.cpp.s:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.s
+.PHONY : Math/Vector3.cpp.s
+
 Optimization/CullingSystem.o: Optimization/CullingSystem.cpp.o
 .PHONY : Optimization/CullingSystem.o
 
@@ -538,6 +634,30 @@ Settings/GraphicsSettings.cpp.s:
 	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/Settings/GraphicsSettings.cpp.s
 .PHONY : Settings/GraphicsSettings.cpp.s
 
+World/WorldManager.o: World/WorldManager.cpp.o
+.PHONY : World/WorldManager.o
+
+# target to build an object file
+World/WorldManager.cpp.o:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o
+.PHONY : World/WorldManager.cpp.o
+
+World/WorldManager.i: World/WorldManager.cpp.i
+.PHONY : World/WorldManager.i
+
+# target to preprocess a source file
+World/WorldManager.cpp.i:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.i
+.PHONY : World/WorldManager.cpp.i
+
+World/WorldManager.s: World/WorldManager.cpp.s
+.PHONY : World/WorldManager.s
+
+# target to generate assembly for a file
+World/WorldManager.cpp.s:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.s
+.PHONY : World/WorldManager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -547,6 +667,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... NeonEngine"
+	@echo "... Assets/AssetManager.o"
+	@echo "... Assets/AssetManager.i"
+	@echo "... Assets/AssetManager.s"
+	@echo "... Assets/Model/Model.o"
+	@echo "... Assets/Model/Model.i"
+	@echo "... Assets/Model/Model.s"
 	@echo "... Audio/AudioDevice.o"
 	@echo "... Audio/AudioDevice.i"
 	@echo "... Audio/AudioDevice.s"
@@ -574,6 +700,12 @@ help:
 	@echo "... Debug/Logger.o"
 	@echo "... Debug/Logger.i"
 	@echo "... Debug/Logger.s"
+	@echo "... Input/InputManager.o"
+	@echo "... Input/InputManager.i"
+	@echo "... Input/InputManager.s"
+	@echo "... Math/Vector3.o"
+	@echo "... Math/Vector3.i"
+	@echo "... Math/Vector3.s"
 	@echo "... Optimization/CullingSystem.o"
 	@echo "... Optimization/CullingSystem.i"
 	@echo "... Optimization/CullingSystem.s"
@@ -598,6 +730,9 @@ help:
 	@echo "... Settings/GraphicsSettings.o"
 	@echo "... Settings/GraphicsSettings.i"
 	@echo "... Settings/GraphicsSettings.s"
+	@echo "... World/WorldManager.o"
+	@echo "... World/WorldManager.i"
+	@echo "... World/WorldManager.s"
 .PHONY : help
 
 

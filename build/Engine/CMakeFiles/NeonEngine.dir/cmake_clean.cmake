@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o.d"
   "CMakeFiles/NeonEngine.dir/Audio/AudioDevice.cpp.o"
   "CMakeFiles/NeonEngine.dir/Audio/AudioDevice.cpp.o.d"
   "CMakeFiles/NeonEngine.dir/Audio/AudioManager.cpp.o"
@@ -17,6 +21,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/NeonEngine.dir/Debug/FPSCounter.cpp.o.d"
   "CMakeFiles/NeonEngine.dir/Debug/Logger.cpp.o"
   "CMakeFiles/NeonEngine.dir/Debug/Logger.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o.d"
   "CMakeFiles/NeonEngine.dir/Optimization/CullingSystem.cpp.o"
   "CMakeFiles/NeonEngine.dir/Optimization/CullingSystem.cpp.o.d"
   "CMakeFiles/NeonEngine.dir/Optimization/LODStreamer.cpp.o"
@@ -33,6 +41,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/NeonEngine.dir/Performance/ThreadManager.cpp.o.d"
   "CMakeFiles/NeonEngine.dir/Settings/GraphicsSettings.cpp.o"
   "CMakeFiles/NeonEngine.dir/Settings/GraphicsSettings.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o"
+  "CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o.d"
   "libNeonEngine.a"
   "libNeonEngine.pdb"
 )

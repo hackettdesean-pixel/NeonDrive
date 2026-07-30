@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/llvm-ar qc libNeonPostProcess.a CMakeFiles/NeonPostProcess.dir/PostProcess.cpp.o
+/data/data/com.termux/files/usr/bin/llvm-ranlib libNeonPostProcess.a

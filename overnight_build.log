@@ -1,0 +1,77 @@
+=== NeonDrive Overnight Build Started ===
+Thu Jul 30 03:44:44 AST 2026
+-- The C compiler identification is Clang 21.1.8
+-- The CXX compiler identification is Clang 21.1.8
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /data/data/com.termux/files/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /data/data/com.termux/files/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (4.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /data/data/com.termux/files/home/NeonDrive/build
+[  3%] Building CXX object Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/Core/VulkanInstance.cpp.o
+[  3%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Core/Application.cpp.o
+[  5%] Building CXX object Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/Core/GPUDetector.cpp.o
+[  7%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Core/Engine.cpp.o
+[  9%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Core/GameLoop.cpp.o
+[ 11%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Debug/Logger.cpp.o
+[ 13%] Building CXX object Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/Pipeline/Swapchain.cpp.o
+[ 15%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Debug/FPSCounter.cpp.o
+[ 16%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Config/GameConfig.cpp.o
+[ 18%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Settings/GraphicsSettings.cpp.o
+[ 20%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Audio/AudioDevice.cpp.o
+[ 22%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Audio/Sound.cpp.o
+[ 24%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Audio/AudioManager.cpp.o
+[ 26%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Performance/PerformanceProfile.cpp.o
+[ 28%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Performance/DynamicResolution.cpp.o
+[ 30%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Performance/ThreadManager.cpp.o
+[ 32%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Optimization/MemoryManager.cpp.o
+[ 33%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Optimization/CullingSystem.cpp.o
+[ 35%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Optimization/LODStreamer.cpp.o
+[ 37%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Optimization/MobileMode.cpp.o
+[ 39%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Math/Vector3.cpp.o
+[ 41%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Assets/AssetManager.cpp.o
+[ 43%] Building CXX object Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/Pipeline/CommandBuffer.cpp.o
+[ 45%] Building CXX object Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/Pipeline/RenderPipeline.cpp.o
+[ 47%] Building CXX object Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/Mesh/Mesh.cpp.o
+[ 49%] Building CXX object Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/Memory/GPUBuffer.cpp.o
+[ 50%] Building CXX object Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/Descriptors/DescriptorManager.cpp.o
+[ 52%] Building CXX object Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/Objects/RenderObject.cpp.o
+[ 54%] Linking CXX static library libNeonVulkan.a
+[ 56%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Assets/Model/Model.cpp.o
+[ 56%] Built target NeonVulkan
+[ 58%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/World/WorldManager.cpp.o
+[ 60%] Building CXX object Engine/CMakeFiles/NeonEngine.dir/Input/InputManager.cpp.o
+[ 62%] Building CXX object Renderer/Scene/CMakeFiles/NeonScene.dir/Camera.cpp.o
+[ 64%] Linking CXX static library libNeonEngine.a
+[ 66%] Building CXX object Renderer/Scene/CMakeFiles/NeonScene.dir/SceneRenderer.cpp.o
+[ 66%] Built target NeonEngine
+[ 67%] Building CXX object Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/PostProcess.cpp.o
+[ 69%] Linking CXX static library libNeonPostProcess.a
+[ 69%] Built target NeonPostProcess
+[ 71%] Linking CXX static library libNeonScene.a
+[ 71%] Built target NeonScene
+[ 75%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Player/Player.cpp.o
+[ 75%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Main.cpp.o
+[ 77%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Vehicle/Vehicle.cpp.o
+[ 79%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.o
+[ 81%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Controller/VehicleController.cpp.o
+[ 83%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Controller/CameraController.cpp.o
+[ 84%] Building CXX object Game/CMakeFiles/NeonDrive.dir/HUD/HUD.cpp.o
+[ 86%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Missions/Mission.cpp.o
+[ 88%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Missions/MissionManager.cpp.o
+[ 90%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Economy/Wallet.cpp.o
+[ 92%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.o
+[ 94%] Building CXX object Game/CMakeFiles/NeonDrive.dir/World/WorldManager.cpp.o
+[ 96%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.o
+[ 98%] Building CXX object Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.o
+[100%] Linking CXX executable NeonDrive
+[100%] Built target NeonDrive
+=== BUILD SUCCESSFUL ===
+Thu Jul 30 03:46:44 AST 2026

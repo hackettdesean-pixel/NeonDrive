@@ -10,6 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/data/data/com.termux/files/home/NeonDrive/CMakeLists.txt"
   "/data/data/com.termux/files/home/NeonDrive/Engine/CMakeLists.txt"
   "/data/data/com.termux/files/home/NeonDrive/Game/CMakeLists.txt"
+  "/data/data/com.termux/files/home/NeonDrive/Renderer/PostProcess/CMakeLists.txt"
+  "/data/data/com.termux/files/home/NeonDrive/Renderer/Scene/CMakeLists.txt"
   "/data/data/com.termux/files/home/NeonDrive/Renderer/Vulkan/CMakeLists.txt"
   "CMakeFiles/4.3.4/CMakeCCompiler.cmake"
   "CMakeFiles/4.3.4/CMakeCXXCompiler.cmake"
@@ -154,6 +156,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Engine/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Renderer/Vulkan/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Renderer/Scene/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Renderer/PostProcess/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Game/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -161,5 +165,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "Engine/CMakeFiles/NeonEngine.dir/DependInfo.cmake"
   "Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/DependInfo.cmake"
+  "Renderer/Scene/CMakeFiles/NeonScene.dir/DependInfo.cmake"
+  "Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/DependInfo.cmake"
   "Game/CMakeFiles/NeonDrive.dir/DependInfo.cmake"
   )

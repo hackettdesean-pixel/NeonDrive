@@ -143,6 +143,32 @@ NeonVulkan/fast:
 .PHONY : NeonVulkan/fast
 
 #=============================================================================
+# Target rules for targets named NeonScene
+
+# Build rule for target.
+NeonScene: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NeonScene
+.PHONY : NeonScene
+
+# fast build rule for target.
+NeonScene/fast:
+	$(MAKE) $(MAKESILENT) -f Renderer/Scene/CMakeFiles/NeonScene.dir/build.make Renderer/Scene/CMakeFiles/NeonScene.dir/build
+.PHONY : NeonScene/fast
+
+#=============================================================================
+# Target rules for targets named NeonPostProcess
+
+# Build rule for target.
+NeonPostProcess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NeonPostProcess
+.PHONY : NeonPostProcess
+
+# fast build rule for target.
+NeonPostProcess/fast:
+	$(MAKE) $(MAKESILENT) -f Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/build.make Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/build
+.PHONY : NeonPostProcess/fast
+
+#=============================================================================
 # Target rules for targets named NeonDrive
 
 # Build rule for target.
@@ -165,6 +191,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... NeonDrive"
 	@echo "... NeonEngine"
+	@echo "... NeonPostProcess"
+	@echo "... NeonScene"
 	@echo "... NeonVulkan"
 .PHONY : help
 

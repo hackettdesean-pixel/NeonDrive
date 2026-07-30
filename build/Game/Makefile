@@ -346,6 +346,78 @@ Progression/PlayerProgression.cpp.s:
 	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/Progression/PlayerProgression.cpp.s
 .PHONY : Progression/PlayerProgression.cpp.s
 
+Traffic/TrafficManager.o: Traffic/TrafficManager.cpp.o
+.PHONY : Traffic/TrafficManager.o
+
+# target to build an object file
+Traffic/TrafficManager.cpp.o:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.o
+.PHONY : Traffic/TrafficManager.cpp.o
+
+Traffic/TrafficManager.i: Traffic/TrafficManager.cpp.i
+.PHONY : Traffic/TrafficManager.i
+
+# target to preprocess a source file
+Traffic/TrafficManager.cpp.i:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.i
+.PHONY : Traffic/TrafficManager.cpp.i
+
+Traffic/TrafficManager.s: Traffic/TrafficManager.cpp.s
+.PHONY : Traffic/TrafficManager.s
+
+# target to generate assembly for a file
+Traffic/TrafficManager.cpp.s:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficManager.cpp.s
+.PHONY : Traffic/TrafficManager.cpp.s
+
+Traffic/TrafficVehicle.o: Traffic/TrafficVehicle.cpp.o
+.PHONY : Traffic/TrafficVehicle.o
+
+# target to build an object file
+Traffic/TrafficVehicle.cpp.o:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.o
+.PHONY : Traffic/TrafficVehicle.cpp.o
+
+Traffic/TrafficVehicle.i: Traffic/TrafficVehicle.cpp.i
+.PHONY : Traffic/TrafficVehicle.i
+
+# target to preprocess a source file
+Traffic/TrafficVehicle.cpp.i:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.i
+.PHONY : Traffic/TrafficVehicle.cpp.i
+
+Traffic/TrafficVehicle.s: Traffic/TrafficVehicle.cpp.s
+.PHONY : Traffic/TrafficVehicle.s
+
+# target to generate assembly for a file
+Traffic/TrafficVehicle.cpp.s:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/Traffic/TrafficVehicle.cpp.s
+.PHONY : Traffic/TrafficVehicle.cpp.s
+
+Vehicle/Physics/VehiclePhysics.o: Vehicle/Physics/VehiclePhysics.cpp.o
+.PHONY : Vehicle/Physics/VehiclePhysics.o
+
+# target to build an object file
+Vehicle/Physics/VehiclePhysics.cpp.o:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.o
+.PHONY : Vehicle/Physics/VehiclePhysics.cpp.o
+
+Vehicle/Physics/VehiclePhysics.i: Vehicle/Physics/VehiclePhysics.cpp.i
+.PHONY : Vehicle/Physics/VehiclePhysics.i
+
+# target to preprocess a source file
+Vehicle/Physics/VehiclePhysics.cpp.i:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.i
+.PHONY : Vehicle/Physics/VehiclePhysics.cpp.i
+
+Vehicle/Physics/VehiclePhysics.s: Vehicle/Physics/VehiclePhysics.cpp.s
+.PHONY : Vehicle/Physics/VehiclePhysics.s
+
+# target to generate assembly for a file
+Vehicle/Physics/VehiclePhysics.cpp.s:
+	cd /data/data/com.termux/files/home/NeonDrive/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/Vehicle/Physics/VehiclePhysics.cpp.s
+.PHONY : Vehicle/Physics/VehiclePhysics.cpp.s
+
 Vehicle/Vehicle.o: Vehicle/Vehicle.cpp.o
 .PHONY : Vehicle/Vehicle.o
 
@@ -430,6 +502,15 @@ help:
 	@echo "... Progression/PlayerProgression.o"
 	@echo "... Progression/PlayerProgression.i"
 	@echo "... Progression/PlayerProgression.s"
+	@echo "... Traffic/TrafficManager.o"
+	@echo "... Traffic/TrafficManager.i"
+	@echo "... Traffic/TrafficManager.s"
+	@echo "... Traffic/TrafficVehicle.o"
+	@echo "... Traffic/TrafficVehicle.i"
+	@echo "... Traffic/TrafficVehicle.s"
+	@echo "... Vehicle/Physics/VehiclePhysics.o"
+	@echo "... Vehicle/Physics/VehiclePhysics.i"
+	@echo "... Vehicle/Physics/VehiclePhysics.s"
 	@echo "... Vehicle/Vehicle.o"
 	@echo "... Vehicle/Vehicle.i"
 	@echo "... Vehicle/Vehicle.s"

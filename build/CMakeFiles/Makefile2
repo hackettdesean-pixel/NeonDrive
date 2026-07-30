@@ -65,24 +65,32 @@ CMAKE_BINARY_DIR = /data/data/com.termux/files/home/NeonDrive/build
 # The main recursive "all" target.
 all: Engine/all
 all: Renderer/Vulkan/all
+all: Renderer/Scene/all
+all: Renderer/PostProcess/all
 all: Game/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: Engine/codegen
 codegen: Renderer/Vulkan/codegen
+codegen: Renderer/Scene/codegen
+codegen: Renderer/PostProcess/codegen
 codegen: Game/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: Engine/preinstall
 preinstall: Renderer/Vulkan/preinstall
+preinstall: Renderer/Scene/preinstall
+preinstall: Renderer/PostProcess/preinstall
 preinstall: Game/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: Engine/clean
 clean: Renderer/Vulkan/clean
+clean: Renderer/Scene/clean
+clean: Renderer/PostProcess/clean
 clean: Game/clean
 .PHONY : clean
 
@@ -125,6 +133,44 @@ Game/clean: Game/CMakeFiles/NeonDrive.dir/clean
 .PHONY : Game/clean
 
 #=============================================================================
+# Directory level rules for directory Renderer/PostProcess
+
+# Recursive "all" directory target.
+Renderer/PostProcess/all: Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/all
+.PHONY : Renderer/PostProcess/all
+
+# Recursive "codegen" directory target.
+Renderer/PostProcess/codegen: Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/codegen
+.PHONY : Renderer/PostProcess/codegen
+
+# Recursive "preinstall" directory target.
+Renderer/PostProcess/preinstall:
+.PHONY : Renderer/PostProcess/preinstall
+
+# Recursive "clean" directory target.
+Renderer/PostProcess/clean: Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/clean
+.PHONY : Renderer/PostProcess/clean
+
+#=============================================================================
+# Directory level rules for directory Renderer/Scene
+
+# Recursive "all" directory target.
+Renderer/Scene/all: Renderer/Scene/CMakeFiles/NeonScene.dir/all
+.PHONY : Renderer/Scene/all
+
+# Recursive "codegen" directory target.
+Renderer/Scene/codegen: Renderer/Scene/CMakeFiles/NeonScene.dir/codegen
+.PHONY : Renderer/Scene/codegen
+
+# Recursive "preinstall" directory target.
+Renderer/Scene/preinstall:
+.PHONY : Renderer/Scene/preinstall
+
+# Recursive "clean" directory target.
+Renderer/Scene/clean: Renderer/Scene/CMakeFiles/NeonScene.dir/clean
+.PHONY : Renderer/Scene/clean
+
+#=============================================================================
 # Directory level rules for directory Renderer/Vulkan
 
 # Recursive "all" directory target.
@@ -150,12 +196,12 @@ Renderer/Vulkan/clean: Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/clean
 Engine/CMakeFiles/NeonEngine.dir/all:
 	$(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/depend
 	$(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target NeonEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target NeonEngine"
 .PHONY : Engine/CMakeFiles/NeonEngine.dir/all
 
 # Build rule for subdir invocation for target.
 Engine/CMakeFiles/NeonEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/NeonDrive/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/NeonDrive/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/CMakeFiles/NeonEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/NeonDrive/build/CMakeFiles 0
 .PHONY : Engine/CMakeFiles/NeonEngine.dir/rule
@@ -167,7 +213,7 @@ NeonEngine: Engine/CMakeFiles/NeonEngine.dir/rule
 # codegen rule for target.
 Engine/CMakeFiles/NeonEngine.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/NeonEngine.dir/build.make Engine/CMakeFiles/NeonEngine.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Finished codegen for target NeonEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Finished codegen for target NeonEngine"
 .PHONY : Engine/CMakeFiles/NeonEngine.dir/codegen
 
 # clean rule for target.
@@ -182,7 +228,7 @@ Engine/CMakeFiles/NeonEngine.dir/clean:
 Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/all:
 	$(MAKE) $(MAKESILENT) -f Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/build.make Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/depend
 	$(MAKE) $(MAKESILENT) -f Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/build.make Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40 "Built target NeonVulkan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=44,45,46,47,48,49,50,51,52,53 "Built target NeonVulkan"
 .PHONY : Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/all
 
 # Build rule for subdir invocation for target.
@@ -199,7 +245,7 @@ NeonVulkan: Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/rule
 # codegen rule for target.
 Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/build.make Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40 "Finished codegen for target NeonVulkan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=44,45,46,47,48,49,50,51,52,53 "Finished codegen for target NeonVulkan"
 .PHONY : Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/codegen
 
 # clean rule for target.
@@ -208,19 +254,85 @@ Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/clean:
 .PHONY : Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/clean
 
 #=============================================================================
+# Target rules for target Renderer/Scene/CMakeFiles/NeonScene.dir
+
+# All Build rule for target.
+Renderer/Scene/CMakeFiles/NeonScene.dir/all:
+	$(MAKE) $(MAKESILENT) -f Renderer/Scene/CMakeFiles/NeonScene.dir/build.make Renderer/Scene/CMakeFiles/NeonScene.dir/depend
+	$(MAKE) $(MAKESILENT) -f Renderer/Scene/CMakeFiles/NeonScene.dir/build.make Renderer/Scene/CMakeFiles/NeonScene.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=41,42,43 "Built target NeonScene"
+.PHONY : Renderer/Scene/CMakeFiles/NeonScene.dir/all
+
+# Build rule for subdir invocation for target.
+Renderer/Scene/CMakeFiles/NeonScene.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/NeonDrive/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Renderer/Scene/CMakeFiles/NeonScene.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/NeonDrive/build/CMakeFiles 0
+.PHONY : Renderer/Scene/CMakeFiles/NeonScene.dir/rule
+
+# Convenience name for target.
+NeonScene: Renderer/Scene/CMakeFiles/NeonScene.dir/rule
+.PHONY : NeonScene
+
+# codegen rule for target.
+Renderer/Scene/CMakeFiles/NeonScene.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f Renderer/Scene/CMakeFiles/NeonScene.dir/build.make Renderer/Scene/CMakeFiles/NeonScene.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=41,42,43 "Finished codegen for target NeonScene"
+.PHONY : Renderer/Scene/CMakeFiles/NeonScene.dir/codegen
+
+# clean rule for target.
+Renderer/Scene/CMakeFiles/NeonScene.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Renderer/Scene/CMakeFiles/NeonScene.dir/build.make Renderer/Scene/CMakeFiles/NeonScene.dir/clean
+.PHONY : Renderer/Scene/CMakeFiles/NeonScene.dir/clean
+
+#=============================================================================
+# Target rules for target Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir
+
+# All Build rule for target.
+Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/all:
+	$(MAKE) $(MAKESILENT) -f Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/build.make Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/depend
+	$(MAKE) $(MAKESILENT) -f Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/build.make Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=39,40 "Built target NeonPostProcess"
+.PHONY : Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/all
+
+# Build rule for subdir invocation for target.
+Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/NeonDrive/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/NeonDrive/build/CMakeFiles 0
+.PHONY : Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/rule
+
+# Convenience name for target.
+NeonPostProcess: Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/rule
+.PHONY : NeonPostProcess
+
+# codegen rule for target.
+Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/build.make Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=39,40 "Finished codegen for target NeonPostProcess"
+.PHONY : Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/codegen
+
+# clean rule for target.
+Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/build.make Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/clean
+.PHONY : Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/clean
+
+#=============================================================================
 # Target rules for target Game/CMakeFiles/NeonDrive.dir
 
 # All Build rule for target.
 Game/CMakeFiles/NeonDrive.dir/all: Renderer/Vulkan/CMakeFiles/NeonVulkan.dir/all
 Game/CMakeFiles/NeonDrive.dir/all: Engine/CMakeFiles/NeonEngine.dir/all
+Game/CMakeFiles/NeonDrive.dir/all: Renderer/Scene/CMakeFiles/NeonScene.dir/all
+Game/CMakeFiles/NeonDrive.dir/all: Renderer/PostProcess/CMakeFiles/NeonPostProcess.dir/all
 	$(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/depend
 	$(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target NeonDrive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target NeonDrive"
 .PHONY : Game/CMakeFiles/NeonDrive.dir/all
 
 # Build rule for subdir invocation for target.
 Game/CMakeFiles/NeonDrive.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/NeonDrive/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/NeonDrive/build/CMakeFiles 53
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Game/CMakeFiles/NeonDrive.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/NeonDrive/build/CMakeFiles 0
 .PHONY : Game/CMakeFiles/NeonDrive.dir/rule
@@ -232,7 +344,7 @@ NeonDrive: Game/CMakeFiles/NeonDrive.dir/rule
 # codegen rule for target.
 Game/CMakeFiles/NeonDrive.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f Game/CMakeFiles/NeonDrive.dir/build.make Game/CMakeFiles/NeonDrive.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Finished codegen for target NeonDrive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Finished codegen for target NeonDrive"
 .PHONY : Game/CMakeFiles/NeonDrive.dir/codegen
 
 # clean rule for target.
