@@ -1,14 +1,11 @@
 #include "RenderPipeline.h"
-#include "../../../Engine/Core/Logger.h"
 
 namespace Neon {
 
 bool RenderPipeline::Create()
 {
-    Logger::Info("Creating Render Pipeline");
-
-    // Shaders
-    // Pipeline layout
+    // Vulkan pipeline creation
+    // Shader stages
     // Rasterizer
     // Depth testing
 
@@ -18,7 +15,7 @@ bool RenderPipeline::Create()
 
 void RenderPipeline::Draw()
 {
-    // GPU draw commands
+    // Vulkan draw calls
 }
 
 }

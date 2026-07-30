@@ -2,9 +2,11 @@
 
 namespace Neon {
 
-bool GPUBuffer::Create(size_t size)
+bool GPUBuffer::Create(std::size_t size)
 {
     // Vulkan buffer allocation
+    // VkBufferCreateInfo
+    // GPU memory binding
 
     return true;
 }

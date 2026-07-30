@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/NeonEngine.dir/Audio/AudioDevice.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Audio/AudioDevice.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Audio/AudioManager.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Audio/AudioManager.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Audio/Sound.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Audio/Sound.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Config/GameConfig.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Config/GameConfig.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Core/Application.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Core/Application.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Core/Engine.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Core/Engine.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Core/GameLoop.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Core/GameLoop.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Debug/FPSCounter.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Debug/FPSCounter.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Debug/Logger.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Debug/Logger.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Optimization/CullingSystem.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Optimization/CullingSystem.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Optimization/LODStreamer.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Optimization/LODStreamer.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Optimization/MemoryManager.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Optimization/MemoryManager.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Optimization/MobileMode.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Optimization/MobileMode.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Performance/DynamicResolution.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Performance/DynamicResolution.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Performance/PerformanceProfile.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Performance/PerformanceProfile.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Performance/ThreadManager.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Performance/ThreadManager.cpp.o.d"
+  "CMakeFiles/NeonEngine.dir/Settings/GraphicsSettings.cpp.o"
+  "CMakeFiles/NeonEngine.dir/Settings/GraphicsSettings.cpp.o.d"
+  "libNeonEngine.a"
+  "libNeonEngine.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/NeonEngine.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

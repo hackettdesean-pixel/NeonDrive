@@ -1,6 +1,6 @@
 #pragma once
 
-#include <vulkan/vulkan.h>
+#include "../Platform/VulkanHeaders.h"
 
 namespace Neon {
 
@@ -16,9 +16,11 @@ public:
 
     VkInstance Get() const;
 
+
 private:
 
     VkInstance instance;
+
 };
 
 }

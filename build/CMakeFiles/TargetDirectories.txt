@@ -1,0 +1,11 @@
+/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/NeonDrive/build/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/NeonDrive/build/Engine/CMakeFiles/NeonEngine.dir
+/data/data/com.termux/files/home/NeonDrive/build/Engine/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/NeonDrive/build/Engine/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/NeonDrive/build/Renderer/Vulkan/CMakeFiles/NeonVulkan.dir
+/data/data/com.termux/files/home/NeonDrive/build/Renderer/Vulkan/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/NeonDrive/build/Renderer/Vulkan/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/NeonDrive/build/Game/CMakeFiles/NeonDrive.dir
+/data/data/com.termux/files/home/NeonDrive/build/Game/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/NeonDrive/build/Game/CMakeFiles/rebuild_cache.dir
